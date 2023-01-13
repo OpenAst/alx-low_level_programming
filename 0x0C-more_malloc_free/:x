@@ -1,0 +1,20 @@
+#include "main.h"
+/**
+ * malloc_checked- output normal termination of malloc
+ * @b: integer for interation
+ * @str: character string
+ * Return: a pointer to the allocated memory
+ */
+void *malloc_checked(unsigned int b)
+{
+	void *i;
+	char str[] = "malloc failed... oops";
+
+	i = malloc(b);
+	if (i == '\0')
+	{
+		_putchar(str);
+		exit(98);
+	}
+	return (i);
+}
