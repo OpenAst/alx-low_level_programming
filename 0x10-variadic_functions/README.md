@@ -1,1 +1,1 @@
-0x10. C - Variadic functions
+1. To be is to be the value of a variable
