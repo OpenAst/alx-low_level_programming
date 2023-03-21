@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stddef.h>
+
 /**
  * _strpbrk - function that searches a string for any of a set of bytes
  *
@@ -7,7 +7,7 @@
  *
  * @accept: matches one of the bytes, or @NULL if no such byte
  *
- * Return: a pointer to the byte
+ * Return: a pointer to the byte or NULL if false
  */
 char *_strpbrk(char *s, char *accept)
 {
